@@ -1,0 +1,348 @@
+ 
+ *{
+ box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+
+.section-new-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 148px;
+  padding-right: 168px;
+  gap: 46px;
+}
+
+.section-new-wrapper-box {
+  width: 344px;
+  height: 406px;
+  background: #ffffff;
+  box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+  border-radius: 10px;
+}
+.section-new-wrapper-box-title {
+  align-items: center;
+  padding: 12px 27px 62px 23px;
+}
+.section-calendar-box {
+  display: flex;
+  align-items: center;
+}
+.calendar-img {
+  margin-right: 15px;
+}
+.calendar-data {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #565656;
+}
+.section-new-text {
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #252525;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  margin-top: 130px;
+  padding-top: 12px;
+  padding-left: 34px;
+  padding-bottom: 12px;
+  background: #717cff;
+  border-radius: 11px;
+  margin-left: 607px;
+  width: 226px;
+  height: 64px;
+  text-align: center;
+  margin-bottom: 222px;
+}
+.button-text {
+  margin-right: 41px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.bottom-link {
+  text-decoration: none;
+}
+
+.section-events-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 54px;
+  letter-spacing: -0.4625px;
+  color: #373737;
+  margin: 0;
+  margin-bottom: 3px;
+  margin-left: 490px;
+}
+.section-events-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7d7d7d;
+  width: 949px;
+  margin-left: 245px;
+  margin-right: 245px;
+  justify-content: center;
+  margin-bottom: 78px;
+}
+.section-events-container {
+  width: 1127px;
+}
+.section-events-wrapper {
+  display: flex;
+  margin-left: 148px;
+  margin-right: 165px;
+  align-items: center;
+  gap: 47px;
+  margin-bottom: 81px;
+}
+.section-events-wrapper-box {
+  width: 540px;
+  height: 308px;
+  background: #ffffff;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+.data-title {
+  padding: 29px 28px 31px 31px;
+}
+.section-data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.section-data-title {
+  width: 76px;
+  height: 76px;
+  padding: 10px 23px 13px 22px;
+  background: #717dff65;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  text-align: center;
+  color: #717cff;
+  border-radius: 11px;
+}
+.aust-title {
+  width: 351.33px;
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #37474f;
+}
+.section-data-text {
+  width: 481.35px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: #37474fb8;
+  margin: 0;
+}
+.learn-data {
+  display: flex;
+  align-items: center;
+}
+.learn {
+  display: flex;
+  align-items: center;
+}
+.learn-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.439286px;
+  color: #717cff;
+}
+.learn-img {
+  margin-left: 20px;
+}
+.data-clock-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: 0.444444px;
+  color: #373737;
+  margin-left: 175px;
+}
+
+.universities-indicators-data {
+  width: 14px;
+  height: 14px;
+  background-color: #717cff;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  box-shadow: 30px 0px 0px -1px #7c7c7c51, 60px 0px 0px -1px #7c7c7c51,
+    90px 0px 0px -1px #7c7c7c51;
+  margin-bottom: 81px;
+}
+
+.section-countries {
+  background: #fafafa;
+}
+.section-countries-title {
+  padding-top: 82px;
+  margin-bottom: 10px;
+  margin-left: 540px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 54px;
+  letter-spacing: -0.4625px;
+  color: #373737;
+}
+.section-countries-subtitle {
+  width: 949px;
+  text-align: center;
+  margin-left: 246px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  color: #7d7d7d;
+  margin-bottom: 55px;
+}
+.section-countries-container {
+  display: flex;
+  margin-left: 144px;
+  margin-right: 160px;
+  gap: 46px;
+  margin-bottom: 83px;
+}
+.nature-img {
+  margin-bottom: 12px;
+  width: 348px;
+  height: 215px;
+}
+.country-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  color: #37474f;
+}
+.about-country {
+  width: 348px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #37474fb8;
+}
+
+.universities-indicators-data-county {
+  width: 14px;
+  height: 14px;
+  background-color: #717cff;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  box-shadow: 30px 0px 0px -1px #7c7c7c51, 60px 0px 0px -1px #7c7c7c51,
+    90px 0px 0px -1px #7c7c7c51;
+  margin-bottom: 136px;
+}
+.section-Testimonial-title {
+  margin: 0;
+  margin-left: 623px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 54px;
+  letter-spacing: -0.4625px;
+  color: #373737;
+}
+.section-Testimonial-subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7d7d7d;
+  width: 949px;
+  margin-left: 246px;
+  text-align: center;
+  margin-bottom: 170px;
+}
+.section-Testimonial-wrapper {
+  padding-left: 182px;
+  padding-right: 61px;
+  margin-bottom: 84px;
+}
+.section-Testimonial-users {
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+  color: #37474f;
+  margin: 0;
+}
+.user-name-box {
+  margin-left: 28px;
+}
+.user-name-about {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #37474f;
+  margin: 0;
+}
+
